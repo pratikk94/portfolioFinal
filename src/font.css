@@ -1,0 +1,15 @@
+/* src/font.css */
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../public/font/EBGaramond-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../public/font/EBGaramond-Italic.ttf") format("tff");
+  font-weight: normal;
+  font-style: italic;
+}
