@@ -21,9 +21,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url("./images/background.gif");
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 
 .App-link {

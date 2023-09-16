@@ -9,7 +9,9 @@ export default function Home() {
       </Col>
 
       <Col span={12}>
-        <h1>Other Half</h1>
+        <div className="homeGIF">
+          <h1>Other Half</h1>
+        </div>
       </Col>
     </Row>
   );
