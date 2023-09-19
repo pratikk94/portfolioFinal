@@ -1,13 +1,54 @@
-// src/components/About.js
 import React from "react";
+import { Card, Col, Row } from "antd";
+import Meta from "antd/es/card/Meta";
 
-function WorkExperience() {
+export default function WorkExperience(props) {
   return (
-    <div>
-      <h2>Work Experience</h2>
-      <p>This is my work experience.</p>
-    </div>
+    <Row>
+      <Col span={8}>
+        <Card
+          hoverable
+          style={{ width: "18vw", marginRight: "2vw" }}
+          cover={
+            <img
+              alt="example"
+              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            />
+          }
+        >
+          <Meta title="Europe Street beat" description="www.instagram.com" />
+        </Card>
+      </Col>
+
+      <Col span={8}>
+        <Card
+          hoverable
+          style={{ width: "18vw", marginRight: "2vw" }}
+          cover={
+            <img
+              alt="example"
+              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            />
+          }
+        >
+          <Meta title="Europe Street beat" description="www.instagram.com" />
+        </Card>
+      </Col>
+
+      <Col span={8}>
+        <Card
+          hoverable
+          style={{ width: "18vw", marginRight: "2vw" }}
+          cover={
+            <img
+              alt="example"
+              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            />
+          }
+        >
+          <Meta title="Europe Street beat" description="www.instagram.com" />
+        </Card>
+      </Col>
+    </Row>
   );
 }
-
-export default WorkExperience;
